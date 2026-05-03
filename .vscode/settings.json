@@ -1,6 +1,10 @@
 {
     "python.analysis.autoImportCompletions": false,
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
     "editor.suggestOnTriggerCharacters": false,
     "github.copilot.enable": {
         "*": false
